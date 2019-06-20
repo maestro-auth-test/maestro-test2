@@ -6,5 +6,6 @@
   <PropertyGroup>
     <FooPackageVersion>1.2.0</FooPackageVersion>
     <BarPackageVersion>2.2.0</BarPackageVersion>
+    <BazPackageVersion>1.0.0</BazPackageVersion>
   </PropertyGroup>
 </Project>
