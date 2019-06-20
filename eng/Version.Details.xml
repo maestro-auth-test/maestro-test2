@@ -10,10 +10,9 @@
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
       <Sha>fd8184c3fcde81eb27ca4c061c6e171f418d753f</Sha>
     </Dependency>
-    <Dependency Name="Baz" Version="1.0.0">
+    <Dependency Name="Baz" Version="2.2.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha>
-      </Sha>
+      <Sha>fd8184c3fcde81eb27ca4c061c6e171f418d753f</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
