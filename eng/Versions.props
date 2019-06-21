@@ -4,9 +4,9 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <FooPackageVersion>1.0.0</FooPackageVersion>
+    <FooPackageVersion>1.1.1</FooPackageVersion>
     <BarPackageVersion>1.0.0</BarPackageVersion>
-    <BazPackageVersion>1.0.0</BazPackageVersion>
+    <BazPackageVersion>1.1.1</BazPackageVersion>
     <PizzaPackageVersion>2.1.0</PizzaPackageVersion>
   </PropertyGroup>
 </Project>
