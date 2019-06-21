@@ -14,6 +14,11 @@
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
       <Sha>fd8184c3fcde81eb27ca4c061c6e171f418d753f</Sha>
     </Dependency>
+    <Dependency Name="Pizza" Version="1.0.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test3</Uri>
+      <Sha>
+      </Sha>
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
   </ToolsetDependencies>
