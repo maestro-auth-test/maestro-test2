@@ -7,6 +7,6 @@
     <FooPackageVersion>1.0.0</FooPackageVersion>
     <BarPackageVersion>1.0.0</BarPackageVersion>
     <BazPackageVersion>1.0.0</BazPackageVersion>
-    <PizzaPackageVersion>1.0.0</PizzaPackageVersion>
+    <PizzaPackageVersion>2.1.0</PizzaPackageVersion>
   </PropertyGroup>
 </Project>
