@@ -1,9 +1,9 @@
 {
   "tools": {
-    "dotnet": "2.1.300"
+    "dotnet": "3.0.100"
   },
   "sdk": {
-    "version": "2.1.300"
+    "version": "3.0.100"
   },
   "msbuild-sdks": {
     "arcade.sdk": "1.1.2"
