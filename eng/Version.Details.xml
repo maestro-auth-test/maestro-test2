@@ -10,13 +10,13 @@
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
       <Sha>1495842894</Sha>
     </Dependency>
-    <Dependency Name="Pizza" Version="">
+    <Dependency Name="Pizza" Version="3.1.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test3</Uri>
-      <Sha />
+      <Sha>1495842894</Sha>
     </Dependency>
-    <Dependency Name="Hamburger" Version="">
+    <Dependency Name="Hamburger" Version="4.1.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test3</Uri>
-      <Sha />
+      <Sha>1495842894</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
