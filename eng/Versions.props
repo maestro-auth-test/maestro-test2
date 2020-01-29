@@ -4,7 +4,6 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <microsoftdotnetarcadesdkPackageVersion>
-    </microsoftdotnetarcadesdkPackageVersion>
+    <MicrosoftDotNetArcadeSdkPackageVersion>5.0.0-beta.20078.3</MicrosoftDotNetArcadeSdkPackageVersion>
   </PropertyGroup>
 </Project>
