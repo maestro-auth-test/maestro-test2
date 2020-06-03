@@ -2,9 +2,9 @@
 <Dependencies>
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
-    <Dependency Name="Foo" Version="">
+    <Dependency Name="Foo" Version="1.1.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>900171091</Sha>
     </Dependency>
     <Dependency Name="Bar" Version="">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
