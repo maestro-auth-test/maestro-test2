@@ -8,7 +8,7 @@
     </Dependency>
     <Dependency Name="Bar" Version="2.2.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha>1188203316</Sha>
+      <Sha>1188203376</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
