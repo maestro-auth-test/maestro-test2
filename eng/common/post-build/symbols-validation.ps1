@@ -24,7 +24,7 @@ $CountMissingSymbols = {
   # Ensure input file exist
   if (!(Test-Path $PackagePath)) {
     Write-PipelineTaskError "Input file does not exist: $PackagePath"
-    return -2
+    return 1
   }
   
   # Extensions for which we'll look for symbols
@@ -44,10 +44,7 @@ $CountMissingSymbols = {
   catch {
     Write-Host "Something went wrong extracting $PackagePath"
     Write-Host $_
-    return [pscustomobject]@{
-      result = -1
-      packagePath = $PackagePath
-    }
+    return -1
   }
 
   Get-ChildItem -Recurse $ExtractPath |
@@ -149,24 +146,7 @@ $CountMissingSymbols = {
   
   Pop-Location
 
-  return [pscustomobject]@{
-      result = $MissingSymbols
-      packagePath = $PackagePath
-    }
-}
-
-function CheckJobResult(
-    $result, 
-    $packagePath,
-    [ref]$DupedSymbols,
-    [ref]$TotalFailures) {
-  if ($result -eq '-1') {
-    Write-PipelineTelemetryError -Category 'CheckSymbols' -Message "$packagePath has duplicated symbol files"
-    $DupedSymbols.Value++
-  } 
-  elseif ($jobResult.result -ne '0') {
-    $TotalFailures.Value++
-  }
+  return $MissingSymbols
 }
 
 function CheckSymbolsAvailable {
@@ -175,7 +155,6 @@ function CheckSymbolsAvailable {
   }
 
   $TotalFailures = 0
-  $DupedSymbols = 0
 
   Get-ChildItem "$InputPath\*.nupkg" |
     ForEach-Object {
@@ -211,7 +190,9 @@ function CheckSymbolsAvailable {
 
       foreach ($Job in @(Get-Job -State 'Completed')) {
         $jobResult = Wait-Job -Id $Job.Id | Receive-Job
-        CheckJobResult $jobResult.result $jobResult.packagePath ([ref]$DupedSymbols) ([ref]$TotalFailures)
+        if ($jobResult -ne '0') {
+          $TotalFailures++
+        }
         Remove-Job -Id $Job.Id
       }
       Write-Host
@@ -219,18 +200,14 @@ function CheckSymbolsAvailable {
 
   foreach ($Job in @(Get-Job)) {
     $jobResult = Wait-Job -Id $Job.Id | Receive-Job
-    CheckJobResult $jobResult.result $jobResult.packagePath ([ref]$DupedSymbols) ([ref]$TotalFailures)
+
+    if ($jobResult -ne '0') {
+      $TotalFailures++
+    }
   }
 
-  if ($TotalFailures -gt 0 -or $DupedSymbols -gt 0) {
-    if ($TotalFailures -gt 0) {
-      Write-PipelineTelemetryError -Category 'CheckSymbols' -Message "Symbols missing for $TotalFailures packages"
-    }
-
-    if ($DupedSymbols -gt 0) {
-      Write-PipelineTelemetryError -Category 'CheckSymbols' -Message "$DupedSymbols packages had duplicated symbol files"
-    }
-    
+  if ($TotalFailures -gt 0) {
+    Write-PipelineTelemetryError -Category 'CheckSymbols' -Message "Symbols missing for $TotalFailures packages"
     ExitWithExitCode 1
   }
   else {
