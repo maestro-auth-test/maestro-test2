@@ -1,6 +1,4 @@
 parameters:
-  BARBuildId: ''
-  PromoteToChannelIds: ''
   artifactsPublishingAdditionalParameters: ''
   dependsOn:
   - Validate
@@ -21,9 +19,6 @@ stages:
   displayName: ${{ parameters.channelName }} Publishing
   jobs:
   - template: ../setup-maestro-vars.yml
-    parameters:
-      BARBuildId: ${{ parameters.BARBuildId }}
-      PromoteToChannelIds: ${{ parameters.PromoteToChannelIds }}
 
   - job: publish_symbols
     displayName: Symbol Publishing
