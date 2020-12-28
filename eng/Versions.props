@@ -4,6 +4,9 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <MicrosoftDotnetArcadeSdkPackageVersion>3.0-beta.1</MicrosoftdotnetarcadesdkPackageVersion>
+  </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <PizzaPackageVersion>3.0-beta.1</PizzaPackageVersion>
   </PropertyGroup>
 </Project>

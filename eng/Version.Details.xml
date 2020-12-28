@@ -4,8 +4,8 @@
   <ProductDependencies>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="3.0-beta.1">
-      <Uri>https://github.com/maestro-auth-test/maestro-test</Uri>
+    <Dependency Name="Pizza" Version="3.0-beta.1">
+      <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
       <Sha />
     </Dependency>
   </ToolsetDependencies>
