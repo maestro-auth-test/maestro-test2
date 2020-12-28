@@ -4,9 +4,9 @@
   <ProductDependencies>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Pizza" Version="3.0.0-beta.1">
+    <Dependency Name="Pizza" Version="2.0.0-beta.1">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>e0241ed49d14f93061a21f60b1b1eea78ccbe149</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
