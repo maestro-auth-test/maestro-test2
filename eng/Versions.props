@@ -7,6 +7,6 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <PizzaPackageVersion>4.0.0-beta.1</PizzaPackageVersion>
+    <PizzaPackageVersion>5.0.0-beta.1</PizzaPackageVersion>
   </PropertyGroup>
 </Project>
