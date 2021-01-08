@@ -4,13 +4,13 @@
   <ProductDependencies>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Pizza" Version="3.0.0-beta.1">
+    <Dependency Name="Pizza" Version="4.0.0-beta.1">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>6df654d363a3acebabf781239e9712ee9a8c8f32</Sha>
     </Dependency>
-    <Dependency Name="Hamburger" Version="3.0.0-beta.1">
+    <Dependency Name="Hamburger" Version="4.0.1-beta.1">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>6df654d363a3acebabf781239e9712ee9a8c8f32</Sha>
     </Dependency>
     <Dependency Name="HotDog" Version="3.0.0-beta.1">
       <Uri>https://github.com/maestro-auth-test/maestro-test3</Uri>
