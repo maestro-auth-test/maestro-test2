@@ -12,5 +12,9 @@
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
       <Sha />
     </Dependency>
+    <Dependency Name="HotDog" Version="3.0.0-beta.1">
+      <Uri>https://github.com/maestro-auth-test/maestro-test3</Uri>
+      <Sha />
+    </Dependency>
   </ToolsetDependencies>
 </Dependencies>
