@@ -1,94 +1,77 @@
 [CmdletBinding(PositionalBinding=$false)]
 Param(
-  [string][Alias('c')]$configuration = "Debug",
-  [string] $projects,
-  [string][Alias('v')]$verbosity = "minimal",
-  [string] $msbuildEngine = $null,
-  [bool] $warnAsError = $true,
-  [bool] $nodeReuse = $true,
-  [switch][Alias('r')]$restore,
+  [string] $configuration = "Debug",
+  [string] $projects = "",
+  [string] $verbosity = "minimal",
+  [bool] $warnaserror = $true,
+  [bool] $nodereuse = $true,
+  [switch] $restore,
   [switch] $deployDeps,
-  [switch][Alias('b')]$build,
+  [switch] $build,
   [switch] $rebuild,
   [switch] $deploy,
-  [switch][Alias('t')]$test,
+  [switch] $test,
   [switch] $integrationTest,
   [switch] $performanceTest,
   [switch] $sign,
   [switch] $pack,
   [switch] $publish,
-  [switch][Alias('bl')]$binaryLog,
+  [switch] $publishBuildAssets,
   [switch] $ci,
   [switch] $prepareMachine,
   [switch] $help,
   [Parameter(ValueFromRemainingArguments=$true)][String[]]$properties
 )
 
-. $PSScriptRoot\tools.ps1
+. $PSScriptRoot\init-tools.ps1
 
 function Print-Usage() {
     Write-Host "Common settings:"
-    Write-Host "  -configuration <value>  Build configuration: 'Debug' or 'Release' (short: -c)"
-    Write-Host "  -verbosity <value>      Msbuild verbosity: q[uiet], m[inimal], n[ormal], d[etailed], and diag[nostic] (short: -v)"
-    Write-Host "  -binaryLog              Output binary log (short: -bl)"
+    Write-Host "  -configuration <value>  Build configuration Debug, Release"
+    Write-Host "  -verbosity <value>      Msbuild verbosity (q[uiet], m[inimal], n[ormal], d[etailed], and diag[nostic])"
     Write-Host "  -help                   Print help and exit"
     Write-Host ""
 
     Write-Host "Actions:"
-    Write-Host "  -restore                Restore dependencies (short: -r)"
-    Write-Host "  -build                  Build solution (short: -b)"
+    Write-Host "  -restore                Restore dependencies"
+    Write-Host "  -build                  Build solution"
     Write-Host "  -rebuild                Rebuild solution"
     Write-Host "  -deploy                 Deploy built VSIXes"
     Write-Host "  -deployDeps             Deploy dependencies (e.g. VSIXes for integration tests)"
-    Write-Host "  -test                   Run all unit tests in the solution (short: -t)"
+    Write-Host "  -test                   Run all unit tests in the solution"
+    Write-Host "  -pack                   Package build outputs into NuGet packages and Willow components"
     Write-Host "  -integrationTest        Run all integration tests in the solution"
     Write-Host "  -performanceTest        Run all performance tests in the solution"
-    Write-Host "  -pack                   Package build outputs into NuGet packages and Willow components"
     Write-Host "  -sign                   Sign build outputs"
     Write-Host "  -publish                Publish artifacts (e.g. symbols)"
+    Write-Host "  -publishBuildAssets        Push assets to BAR"
     Write-Host ""
 
     Write-Host "Advanced settings:"
     Write-Host "  -projects <value>       Semi-colon delimited list of sln/proj's to build. Globbing is supported (*.sln)"
     Write-Host "  -ci                     Set when running on CI server"
-    Write-Host "  -prepareMachine         Prepare machine for CI run, clean up processes after build"
-    Write-Host "  -warnAsError <value>    Sets warnaserror msbuild parameter ('true' or 'false')"
-    Write-Host "  -msbuildEngine <value>  Msbuild engine to use to run build ('dotnet', 'vs', or unspecified)."
+    Write-Host "  -prepareMachine         Prepare machine for CI run"
     Write-Host ""
-
     Write-Host "Command line arguments not listed above are passed thru to msbuild."
     Write-Host "The above arguments can be shortened as much as to be unambiguous (e.g. -co for configuration, -t for test, etc.)."
 }
 
-function InitializeCustomToolset {
-  if (-not $restore) {
-    return
-  }
-
-  $script = Join-Path $EngRoot "restore-toolset.ps1"
-
-  if (Test-Path $script) {
-    . $script
-  }
+if ($help -or (($properties -ne $null) -and ($properties.Contains("/help") -or $properties.Contains("/?")))) {
+  Print-Usage
+  exit 0
 }
 
-function Build {
-  $toolsetBuildProj = InitializeToolset
-  InitializeCustomToolset
-
-  $bl = if ($binaryLog) { "/bl:" + (Join-Path $LogDir "Build.binlog") } else { "" }
-
-  if ($projects) {
-    # Re-assign properties to a new variable because PowerShell doesn't let us append properties directly for unclear reasons.
-    # Explicitly set the type as string[] because otherwise PowerShell would make this char[] if $properties is empty.
-    [string[]] $msbuildArgs = $properties
-    $msbuildArgs += "/p:Projects=$projects"
-    $properties = $msbuildArgs
+try {
+  if ($projects -eq "") {
+    $projects = Join-Path $RepoRoot "*.sln"
   }
 
-  MSBuild $toolsetBuildProj `
-    $bl `
+  $BuildLog = Join-Path $LogDir "Build.binlog"
+
+  MSBuild $ToolsetBuildProj `
+    /bl:$BuildLog `
     /p:Configuration=$configuration `
+    /p:Projects=$projects `
     /p:RepoRoot=$RepoRoot `
     /p:Restore=$restore `
     /p:DeployDeps=$deployDeps `
@@ -101,28 +84,17 @@ function Build {
     /p:PerformanceTest=$performanceTest `
     /p:Sign=$sign `
     /p:Publish=$publish `
+    /p:PublishBuildAssets=$publishBuildAssets `
+    /p:ContinuousIntegrationBuild=$ci `
+    /p:CIBuild=$ci `
     @properties
-}
 
-try {
-  if ($help -or (($null -ne $properties) -and ($properties.Contains("/help") -or $properties.Contains("/?")))) {
-    Print-Usage
-    exit 0
+  if ($lastExitCode -ne 0) {
+    Write-Host "Build Failed (exit code '$lastExitCode'). See log: $BuildLog" -ForegroundColor Red
+    ExitWithExitCode $lastExitCode
   }
 
-  if ($ci) {
-    $binaryLog = $true
-    $nodeReuse = $false
-  }
-
-  # Import custom tools configuration, if present in the repo.
-  # Note: Import in global scope so that the script set top-level variables without qualification.
-  $configureToolsetScript = Join-Path $EngRoot "configure-toolset.ps1"
-  if (Test-Path $configureToolsetScript) {
-    . $configureToolsetScript
-  }
-
-  Build
+  ExitWithExitCode $lastExitCode
 }
 catch {
   Write-Host $_
@@ -130,5 +102,3 @@ catch {
   Write-Host $_.ScriptStackTrace
   ExitWithExitCode 1
 }
-
-ExitWithExitCode 0
