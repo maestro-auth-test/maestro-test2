@@ -4,8 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <FooPackageVersion>
-    </FooPackageVersion>
+    <FooPackageVersion>1.1.0</FooPackageVersion>
     <BazzzPackageVersion>
     </BazzzPackageVersion>
   </PropertyGroup>
