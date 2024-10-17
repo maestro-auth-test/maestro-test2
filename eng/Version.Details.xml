@@ -2,6 +2,14 @@
 <Dependencies>
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
+    <Dependency Name="Foo" Version="1.1.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
+      <Sha>00000</Sha>
+    </Dependency>
+    <Dependency Name="Bar" Version="2.1.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
+      <Sha>00000</Sha>
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
   </ToolsetDependencies>
