@@ -8,9 +8,7 @@
     </Foo437836f6PackageVersion>
     <Bar437836f6PackageVersion>
     </Bar437836f6PackageVersion>
-    <Pizza437836f6PackageVersion>
-    </Pizza437836f6PackageVersion>
-    <Hamburger437836f6PackageVersion>
-    </Hamburger437836f6PackageVersion>
+    <Pizza437836f6PackageVersion>3.1.0</Pizza437836f6PackageVersion>
+    <Hamburger437836f6PackageVersion>4.1.0</Hamburger437836f6PackageVersion>
   </PropertyGroup>
 </Project>
