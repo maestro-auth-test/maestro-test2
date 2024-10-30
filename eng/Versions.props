@@ -4,9 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Food1954eccPackageVersion>
-    </Food1954eccPackageVersion>
-    <Bard1954eccPackageVersion>
-    </Bard1954eccPackageVersion>
+    <Food1954eccPackageVersion>1.1.0</Food1954eccPackageVersion>
+    <Bard1954eccPackageVersion>2.1.0</Bard1954eccPackageVersion>
   </PropertyGroup>
 </Project>
