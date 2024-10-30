@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooacea9096PackageVersion>0.0.1</Fooacea9096PackageVersion>
-    <Baracea9096PackageVersion>0.0.1</Baracea9096PackageVersion>
+    <Fooacea9096PackageVersion>1.1.0</Fooacea9096PackageVersion>
+    <Baracea9096PackageVersion>2.1.0</Baracea9096PackageVersion>
   </PropertyGroup>
 </Project>
