@@ -2,4 +2,11 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Foocca77826PackageVersion>
+    </Foocca77826PackageVersion>
+    <Barcca77826PackageVersion>
+    </Barcca77826PackageVersion>
+  </PropertyGroup>
 </Project>
