@@ -2,13 +2,13 @@
 <Dependencies>
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
-    <Dependency Name="Foo.d17577b0" Version="">
+    <Dependency Name="Foo.d17577b0" Version="1.17.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>8460158878d4b7568f55d27960d4453877523ea6</Sha>
     </Dependency>
-    <Dependency Name="Bar.d17577b0" Version="">
+    <Dependency Name="Bar.d17577b0" Version="2.17.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>8460158878d4b7568f55d27960d4453877523ea6</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
