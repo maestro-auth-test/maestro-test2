@@ -4,9 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooebe3d820PackageVersion>
-    </Fooebe3d820PackageVersion>
-    <Barebe3d820PackageVersion>
-    </Barebe3d820PackageVersion>
+    <Fooebe3d820PackageVersion>1.1.0</Fooebe3d820PackageVersion>
+    <Barebe3d820PackageVersion>2.1.0</Barebe3d820PackageVersion>
   </PropertyGroup>
 </Project>
