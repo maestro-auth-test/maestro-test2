@@ -4,9 +4,9 @@
   <ProductDependencies>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="2.1.0">
       <Uri>https://github.com/maestro-auth-test/arcade</Uri>
-      <Sha />
+      <Sha>f3d51d2c9af2a3eb046fa54c5acdef9fb37db172</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
