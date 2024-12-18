@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Foo90798303PackageVersion>1.17.0</Foo90798303PackageVersion>
-    <Bar90798303PackageVersion>2.17.0</Bar90798303PackageVersion>
+    <Foo90798303PackageVersion>1.1.0</Foo90798303PackageVersion>
+    <Bar90798303PackageVersion>2.1.0</Bar90798303PackageVersion>
   </PropertyGroup>
 </Project>
