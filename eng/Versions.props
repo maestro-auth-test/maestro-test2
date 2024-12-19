@@ -4,10 +4,8 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Foodfee1842PackageVersion>
-    </Foodfee1842PackageVersion>
-    <Bardfee1842PackageVersion>
-    </Bardfee1842PackageVersion>
+    <Foodfee1842PackageVersion>1.1.0</Foodfee1842PackageVersion>
+    <Bardfee1842PackageVersion>2.1.0</Bardfee1842PackageVersion>
     <Pizzadfee1842PackageVersion>
     </Pizzadfee1842PackageVersion>
     <Hamburgerdfee1842PackageVersion>
