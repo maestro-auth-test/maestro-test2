@@ -6,9 +6,7 @@
   <PropertyGroup>
     <Foodfee1842PackageVersion>1.1.0</Foodfee1842PackageVersion>
     <Bardfee1842PackageVersion>2.1.0</Bardfee1842PackageVersion>
-    <Pizzadfee1842PackageVersion>
-    </Pizzadfee1842PackageVersion>
-    <Hamburgerdfee1842PackageVersion>
-    </Hamburgerdfee1842PackageVersion>
+    <Pizzadfee1842PackageVersion>3.1.0</Pizzadfee1842PackageVersion>
+    <Hamburgerdfee1842PackageVersion>4.1.0</Hamburgerdfee1842PackageVersion>
   </PropertyGroup>
 </Project>
