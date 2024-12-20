@@ -8,9 +8,7 @@
     </Fooaca44d22PackageVersion>
     <Baraca44d22PackageVersion>
     </Baraca44d22PackageVersion>
-    <Pizzaaca44d22PackageVersion>
-    </Pizzaaca44d22PackageVersion>
-    <Hamburgeraca44d22PackageVersion>
-    </Hamburgeraca44d22PackageVersion>
+    <Pizzaaca44d22PackageVersion>3.1.0</Pizzaaca44d22PackageVersion>
+    <Hamburgeraca44d22PackageVersion>4.1.0</Hamburgeraca44d22PackageVersion>
   </PropertyGroup>
 </Project>
