@@ -4,10 +4,8 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooaca44d22PackageVersion>
-    </Fooaca44d22PackageVersion>
-    <Baraca44d22PackageVersion>
-    </Baraca44d22PackageVersion>
+    <Fooaca44d22PackageVersion>1.1.0</Fooaca44d22PackageVersion>
+    <Baraca44d22PackageVersion>2.1.0</Baraca44d22PackageVersion>
     <Pizzaaca44d22PackageVersion>3.1.0</Pizzaaca44d22PackageVersion>
     <Hamburgeraca44d22PackageVersion>4.1.0</Hamburgeraca44d22PackageVersion>
   </PropertyGroup>
