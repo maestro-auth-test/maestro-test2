@@ -6,9 +6,7 @@
   <PropertyGroup>
     <Foo1f2afedaPackageVersion>1.1.0</Foo1f2afedaPackageVersion>
     <Bar1f2afedaPackageVersion>2.1.0</Bar1f2afedaPackageVersion>
-    <Pizza1f2afedaPackageVersion>
-    </Pizza1f2afedaPackageVersion>
-    <Hamburger1f2afedaPackageVersion>
-    </Hamburger1f2afedaPackageVersion>
+    <Pizza1f2afedaPackageVersion>3.1.0</Pizza1f2afedaPackageVersion>
+    <Hamburger1f2afedaPackageVersion>4.1.0</Hamburger1f2afedaPackageVersion>
   </PropertyGroup>
 </Project>
