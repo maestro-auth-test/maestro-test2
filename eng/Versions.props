@@ -4,9 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Food39c6f16PackageVersion>
-    </Food39c6f16PackageVersion>
-    <Bard39c6f16PackageVersion>
-    </Bard39c6f16PackageVersion>
+    <Food39c6f16PackageVersion>1.1.0</Food39c6f16PackageVersion>
+    <Bard39c6f16PackageVersion>2.1.0</Bard39c6f16PackageVersion>
   </PropertyGroup>
 </Project>
