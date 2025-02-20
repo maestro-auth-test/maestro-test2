@@ -2,4 +2,9 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Fooaced32ddPackageVersion>0.0.1</Fooaced32ddPackageVersion>
+    <Baraced32ddPackageVersion>0.0.1</Baraced32ddPackageVersion>
+  </PropertyGroup>
 </Project>
