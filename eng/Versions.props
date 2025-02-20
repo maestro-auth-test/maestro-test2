@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooaced32ddPackageVersion>0.0.1</Fooaced32ddPackageVersion>
-    <Baraced32ddPackageVersion>0.0.1</Baraced32ddPackageVersion>
+    <Fooaced32ddPackageVersion>1.1.0</Fooaced32ddPackageVersion>
+    <Baraced32ddPackageVersion>2.1.0</Baraced32ddPackageVersion>
   </PropertyGroup>
 </Project>
