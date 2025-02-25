@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooeeface79PackageVersion>0.0.1</Fooeeface79PackageVersion>
-    <Bareeface79PackageVersion>0.0.1</Bareeface79PackageVersion>
+    <Fooeeface79PackageVersion>1.1.0</Fooeeface79PackageVersion>
+    <Bareeface79PackageVersion>2.1.0</Bareeface79PackageVersion>
   </PropertyGroup>
 </Project>
