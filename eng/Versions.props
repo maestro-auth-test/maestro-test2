@@ -2,4 +2,11 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Foo6abead2dPackageVersion>
+    </Foo6abead2dPackageVersion>
+    <Bar6abead2dPackageVersion>
+    </Bar6abead2dPackageVersion>
+  </PropertyGroup>
 </Project>
