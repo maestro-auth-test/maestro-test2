@@ -2,4 +2,11 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Food555ca48PackageVersion>
+    </Food555ca48PackageVersion>
+    <Bard555ca48PackageVersion>
+    </Bard555ca48PackageVersion>
+  </PropertyGroup>
 </Project>
