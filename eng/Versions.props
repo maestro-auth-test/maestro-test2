@@ -8,9 +8,7 @@
     </Fooee49ac64PackageVersion>
     <Baree49ac64PackageVersion>
     </Baree49ac64PackageVersion>
-    <Pizzaee49ac64PackageVersion>
-    </Pizzaee49ac64PackageVersion>
-    <Hamburgeree49ac64PackageVersion>
-    </Hamburgeree49ac64PackageVersion>
+    <Pizzaee49ac64PackageVersion>3.1.0</Pizzaee49ac64PackageVersion>
+    <Hamburgeree49ac64PackageVersion>4.1.0</Hamburgeree49ac64PackageVersion>
   </PropertyGroup>
 </Project>
