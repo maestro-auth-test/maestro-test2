@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Foo49badb25PackageVersion>0.0.1</Foo49badb25PackageVersion>
-    <Bar49badb25PackageVersion>0.0.1</Bar49badb25PackageVersion>
+    <Foo49badb25PackageVersion>1.1.0</Foo49badb25PackageVersion>
+    <Bar49badb25PackageVersion>2.1.0</Bar49badb25PackageVersion>
   </PropertyGroup>
 </Project>
