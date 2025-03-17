@@ -8,9 +8,7 @@
     </Food165ad51PackageVersion>
     <Bard165ad51PackageVersion>
     </Bard165ad51PackageVersion>
-    <Pizzad165ad51PackageVersion>
-    </Pizzad165ad51PackageVersion>
-    <Hamburgerd165ad51PackageVersion>
-    </Hamburgerd165ad51PackageVersion>
+    <Pizzad165ad51PackageVersion>3.1.0</Pizzad165ad51PackageVersion>
+    <Hamburgerd165ad51PackageVersion>4.1.0</Hamburgerd165ad51PackageVersion>
   </PropertyGroup>
 </Project>
