@@ -2,4 +2,15 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Foof34064a8PackageVersion>
+    </Foof34064a8PackageVersion>
+    <Barf34064a8PackageVersion>
+    </Barf34064a8PackageVersion>
+    <Pizzaf34064a8PackageVersion>
+    </Pizzaf34064a8PackageVersion>
+    <Hamburgerf34064a8PackageVersion>
+    </Hamburgerf34064a8PackageVersion>
+  </PropertyGroup>
 </Project>
