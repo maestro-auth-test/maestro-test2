@@ -4,10 +4,8 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooded1c675PackageVersion>
-    </Fooded1c675PackageVersion>
-    <Barded1c675PackageVersion>
-    </Barded1c675PackageVersion>
+    <Fooded1c675PackageVersion>1.1.0</Fooded1c675PackageVersion>
+    <Barded1c675PackageVersion>2.1.0</Barded1c675PackageVersion>
     <Pizzaded1c675PackageVersion>3.1.0</Pizzaded1c675PackageVersion>
     <Hamburgerded1c675PackageVersion>4.1.0</Hamburgerded1c675PackageVersion>
   </PropertyGroup>
