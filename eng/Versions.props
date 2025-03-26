@@ -8,9 +8,7 @@
     </Fooded1c675PackageVersion>
     <Barded1c675PackageVersion>
     </Barded1c675PackageVersion>
-    <Pizzaded1c675PackageVersion>
-    </Pizzaded1c675PackageVersion>
-    <Hamburgerded1c675PackageVersion>
-    </Hamburgerded1c675PackageVersion>
+    <Pizzaded1c675PackageVersion>3.1.0</Pizzaded1c675PackageVersion>
+    <Hamburgerded1c675PackageVersion>4.1.0</Hamburgerded1c675PackageVersion>
   </PropertyGroup>
 </Project>
