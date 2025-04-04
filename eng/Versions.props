@@ -6,9 +6,7 @@
   <PropertyGroup>
     <Foodedef418PackageVersion>1.1.0</Foodedef418PackageVersion>
     <Bardedef418PackageVersion>2.1.0</Bardedef418PackageVersion>
-    <Pizzadedef418PackageVersion>
-    </Pizzadedef418PackageVersion>
-    <Hamburgerdedef418PackageVersion>
-    </Hamburgerdedef418PackageVersion>
+    <Pizzadedef418PackageVersion>3.1.0</Pizzadedef418PackageVersion>
+    <Hamburgerdedef418PackageVersion>4.1.0</Hamburgerdedef418PackageVersion>
   </PropertyGroup>
 </Project>
