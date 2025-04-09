@@ -4,10 +4,8 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Foo183179e2PackageVersion>
-    </Foo183179e2PackageVersion>
-    <Bar183179e2PackageVersion>
-    </Bar183179e2PackageVersion>
+    <Foo183179e2PackageVersion>1.1.0</Foo183179e2PackageVersion>
+    <Bar183179e2PackageVersion>2.1.0</Bar183179e2PackageVersion>
     <Pizza183179e2PackageVersion>
     </Pizza183179e2PackageVersion>
     <Hamburger183179e2PackageVersion>
