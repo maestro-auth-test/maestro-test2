@@ -4,8 +4,8 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooade80aabPackageVersion>1.1.0</Fooade80aabPackageVersion>
-    <Barade80aabPackageVersion>2.1.0</Barade80aabPackageVersion>
+    <Fooade80aabPackageVersion>1.17.0</Fooade80aabPackageVersion>
+    <Barade80aabPackageVersion>2.17.0</Barade80aabPackageVersion>
     <Pinnedade80aabPackageVersion>2.1.0</Pinnedade80aabPackageVersion>
   </PropertyGroup>
 </Project>
