@@ -2,4 +2,10 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Fooca2ab593PackageVersion>1.1.0</Fooca2ab593PackageVersion>
+    <Barca2ab593PackageVersion>2.1.0</Barca2ab593PackageVersion>
+    <Pinnedca2ab593PackageVersion>2.1.0</Pinnedca2ab593PackageVersion>
+  </PropertyGroup>
 </Project>
