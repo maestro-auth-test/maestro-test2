@@ -2,4 +2,9 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Foocad72a9dPackageVersion>0.0.1</Foocad72a9dPackageVersion>
+    <Barcad72a9dPackageVersion>0.0.1</Barcad72a9dPackageVersion>
+  </PropertyGroup>
 </Project>
