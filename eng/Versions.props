@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Foocabe720aPackageVersion>0.0.1</Foocabe720aPackageVersion>
-    <Barcabe720aPackageVersion>0.0.1</Barcabe720aPackageVersion>
+    <Foocabe720aPackageVersion>1.1.0</Foocabe720aPackageVersion>
+    <Barcabe720aPackageVersion>2.1.0</Barcabe720aPackageVersion>
   </PropertyGroup>
 </Project>
