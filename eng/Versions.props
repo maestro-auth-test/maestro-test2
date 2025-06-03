@@ -2,4 +2,9 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Fooc486afdePackageVersion>0.0.1</Fooc486afdePackageVersion>
+    <Barc486afdePackageVersion>0.0.1</Barc486afdePackageVersion>
+  </PropertyGroup>
 </Project>
