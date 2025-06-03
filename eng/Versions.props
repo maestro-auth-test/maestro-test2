@@ -4,7 +4,7 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Fooc486afdePackageVersion>0.0.1</Fooc486afdePackageVersion>
-    <Barc486afdePackageVersion>0.0.1</Barc486afdePackageVersion>
+    <Fooc486afdePackageVersion>1.1.0</Fooc486afdePackageVersion>
+    <Barc486afdePackageVersion>2.1.0</Barc486afdePackageVersion>
   </PropertyGroup>
 </Project>
