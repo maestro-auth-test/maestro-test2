@@ -2,4 +2,11 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Fooaa7b3214PackageVersion>1.1.0</Fooaa7b3214PackageVersion>
+    <Baraa7b3214PackageVersion>2.1.0</Baraa7b3214PackageVersion>
+    <Pizzaaa7b3214PackageVersion>3.1.0</Pizzaaa7b3214PackageVersion>
+    <Hamburgeraa7b3214PackageVersion>4.1.0</Hamburgeraa7b3214PackageVersion>
+  </PropertyGroup>
 </Project>
