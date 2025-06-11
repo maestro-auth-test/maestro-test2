@@ -2,4 +2,10 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Fooec17fddcPackageVersion>1.1.0</Fooec17fddcPackageVersion>
+    <Barec17fddcPackageVersion>2.1.0</Barec17fddcPackageVersion>
+    <Pinnedec17fddcPackageVersion>2.1.0</Pinnedec17fddcPackageVersion>
+  </PropertyGroup>
 </Project>
