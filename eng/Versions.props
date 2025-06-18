@@ -2,4 +2,11 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Fooafab32faPackageVersion>1.1.0</Fooafab32faPackageVersion>
+    <Barafab32faPackageVersion>2.1.0</Barafab32faPackageVersion>
+    <Pizzaafab32faPackageVersion>3.1.0</Pizzaafab32faPackageVersion>
+    <Hamburgerafab32faPackageVersion>4.1.0</Hamburgerafab32faPackageVersion>
+  </PropertyGroup>
 </Project>
