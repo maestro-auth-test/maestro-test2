@@ -2,4 +2,9 @@
 <Project>
   <PropertyGroup>
   </PropertyGroup>
+  <!--Package versions-->
+  <PropertyGroup>
+    <Foocaad2d82PackageVersion>0.0.1</Foocaad2d82PackageVersion>
+    <Barcaad2d82PackageVersion>0.0.1</Barcaad2d82PackageVersion>
+  </PropertyGroup>
 </Project>
