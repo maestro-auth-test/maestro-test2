@@ -4,8 +4,8 @@
   </PropertyGroup>
   <!--Package versions-->
   <PropertyGroup>
-    <Food26fd65fPackageVersion>1.1.0</Food26fd65fPackageVersion>
-    <Bard26fd65fPackageVersion>2.1.0</Bard26fd65fPackageVersion>
+    <Food26fd65fPackageVersion>1.17.0</Food26fd65fPackageVersion>
+    <Bard26fd65fPackageVersion>2.17.0</Bard26fd65fPackageVersion>
     <Pinnedd26fd65fPackageVersion>2.1.0</Pinnedd26fd65fPackageVersion>
   </PropertyGroup>
 </Project>
