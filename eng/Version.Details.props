@@ -1,2 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project>
+  <PropertyGroup>
+    <!-- maestro-test-vmr dependencies -->
+    <Barf2e0ef0ePackageVersion>2.17.0</Barf2e0ef0ePackageVersion>
+    <Foof2e0ef0ePackageVersion>1.17.0</Foof2e0ef0ePackageVersion>
+    <MicrosoftDotNetArcadeSdkPackageVersion>1.1.0</MicrosoftDotNetArcadeSdkPackageVersion>
+    <Pinnedf2e0ef0ePackageVersion>2.1.0</Pinnedf2e0ef0ePackageVersion>
+  </PropertyGroup>
 </Project>
