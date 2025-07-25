@@ -7,7 +7,6 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-test-arcade dependencies -->
-    <MicrosoftDotNetArcadeSdkPackageVersion>
-    </MicrosoftDotNetArcadeSdkPackageVersion>
+    <MicrosoftDotNetArcadeSdkPackageVersion>2.1.0</MicrosoftDotNetArcadeSdkPackageVersion>
   </PropertyGroup>
 </Project>
