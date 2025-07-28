@@ -7,7 +7,7 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-test1 dependencies -->
-    <Bar5befc742PackageVersion>0.0.1</Bar5befc742PackageVersion>
-    <Foo5befc742PackageVersion>0.0.1</Foo5befc742PackageVersion>
+    <Bar5befc742PackageVersion>2.1.0</Bar5befc742PackageVersion>
+    <Foo5befc742PackageVersion>1.1.0</Foo5befc742PackageVersion>
   </PropertyGroup>
 </Project>
