@@ -9,7 +9,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-test1 dependencies -->
     <Barc8e3afcaPackageVersion>2.1.0</Barc8e3afcaPackageVersion>
     <Fooc8e3afcaPackageVersion>1.1.0</Fooc8e3afcaPackageVersion>
-    <!-- maestro-test2 dependencies -->
+    <!-- maestro-test3 dependencies -->
     <Hamburgerc8e3afcaPackageVersion>4.1.0</Hamburgerc8e3afcaPackageVersion>
     <Pizzac8e3afcaPackageVersion>3.1.0</Pizzac8e3afcaPackageVersion>
   </PropertyGroup>
