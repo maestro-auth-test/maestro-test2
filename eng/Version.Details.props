@@ -6,9 +6,10 @@ This file should be imported by eng/Versions.props
 -->
 <Project>
   <PropertyGroup>
-    <!-- maestro-test2 dependencies -->
+    <!-- maestro-test1 dependencies -->
     <Barb3d45bc9PackageVersion>2.1.0</Barb3d45bc9PackageVersion>
     <Foob3d45bc9PackageVersion>1.1.0</Foob3d45bc9PackageVersion>
+    <!-- maestro-test2 dependencies -->
     <Hamburgerb3d45bc9PackageVersion>4.1.0</Hamburgerb3d45bc9PackageVersion>
     <Pizzab3d45bc9PackageVersion>3.1.0</Pizzab3d45bc9PackageVersion>
   </PropertyGroup>
