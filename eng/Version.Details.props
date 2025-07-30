@@ -7,9 +7,9 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-test1 dependencies -->
-    <Barb99cfeaaPackageVersion>2.1.0</Barb99cfeaaPackageVersion>
-    <Barb99cfeaaVersion>2.1.0</Barb99cfeaaVersion>
-    <Foob99cfeaaPackageVersion>1.1.0</Foob99cfeaaPackageVersion>
-    <Foob99cfeaaVersion>1.1.0</Foob99cfeaaVersion>
+    <Barb99cfeaaPackageVersion>2.17.0</Barb99cfeaaPackageVersion>
+    <Barb99cfeaaVersion>2.17.0</Barb99cfeaaVersion>
+    <Foob99cfeaaPackageVersion>1.17.0</Foob99cfeaaPackageVersion>
+    <Foob99cfeaaVersion>1.17.0</Foob99cfeaaVersion>
   </PropertyGroup>
 </Project>
