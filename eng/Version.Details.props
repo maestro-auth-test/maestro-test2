@@ -6,17 +6,19 @@ This file should be imported by eng/Versions.props
 -->
 <Project>
   <PropertyGroup>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barec28a426PackageVersion>2.1.0</Barec28a426PackageVersion>
     <Fooec28a426PackageVersion>1.1.0</Fooec28a426PackageVersion>
+    <!-- maestro-auth-test/maestro-test2 dependencies -->
     <Hamburgerec28a426PackageVersion>4.1.0</Hamburgerec28a426PackageVersion>
     <Pizzaec28a426PackageVersion>3.1.0</Pizzaec28a426PackageVersion>
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barec28a426Version>$(Barec28a426PackageVersion)</Barec28a426Version>
     <Fooec28a426Version>$(Fooec28a426PackageVersion)</Fooec28a426Version>
+    <!-- maestro-auth-test/maestro-test2 dependencies -->
     <Hamburgerec28a426Version>$(Hamburgerec28a426PackageVersion)</Hamburgerec28a426Version>
     <Pizzaec28a426Version>$(Pizzaec28a426PackageVersion)</Pizzaec28a426Version>
   </PropertyGroup>
