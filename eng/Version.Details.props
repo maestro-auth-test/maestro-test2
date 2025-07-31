@@ -7,8 +7,8 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-auth-test/maestro-test-vmr dependencies -->
-    <Barddada384PackageVersion>2.1.0</Barddada384PackageVersion>
-    <Fooddada384PackageVersion>1.1.0</Fooddada384PackageVersion>
+    <Barddada384PackageVersion>2.17.0</Barddada384PackageVersion>
+    <Fooddada384PackageVersion>1.17.0</Fooddada384PackageVersion>
     <MicrosoftDotNetArcadeSdkPackageVersion>1.1.0</MicrosoftDotNetArcadeSdkPackageVersion>
     <Pinnedddada384PackageVersion>2.1.0</Pinnedddada384PackageVersion>
   </PropertyGroup>
