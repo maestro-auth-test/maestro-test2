@@ -7,8 +7,8 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-auth-test/maestro-test1 dependencies -->
-    <Barca2cef82PackageVersion>0.0.1</Barca2cef82PackageVersion>
-    <Fooca2cef82PackageVersion>0.0.1</Fooca2cef82PackageVersion>
+    <Barca2cef82PackageVersion>2.1.0</Barca2cef82PackageVersion>
+    <Fooca2cef82PackageVersion>1.1.0</Fooca2cef82PackageVersion>
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
