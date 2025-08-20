@@ -6,7 +6,7 @@ This file should be imported by eng/Versions.props
 -->
 <Project>
   <PropertyGroup>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barff062d3dPackageVersion>2.1.0</Barff062d3dPackageVersion>
     <Fooff062d3dPackageVersion>1.1.0</Fooff062d3dPackageVersion>
     <!-- maestro-auth-test/maestro-test3 dependencies -->
@@ -15,7 +15,7 @@ This file should be imported by eng/Versions.props
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barff062d3dVersion>$(Barff062d3dPackageVersion)</Barff062d3dVersion>
     <Fooff062d3dVersion>$(Fooff062d3dPackageVersion)</Fooff062d3dVersion>
     <!-- maestro-auth-test/maestro-test3 dependencies -->
