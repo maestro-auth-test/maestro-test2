@@ -9,6 +9,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test/maestro-test2 dependencies -->
     <Bardf791895PackageVersion>2.1.0</Bardf791895PackageVersion>
     <Foodf791895PackageVersion>1.1.0</Foodf791895PackageVersion>
+    <!-- maestro-auth-test/maestro-test3 dependencies -->
     <Hamburgerdf791895PackageVersion>4.1.0</Hamburgerdf791895PackageVersion>
     <Pizzadf791895PackageVersion>3.1.0</Pizzadf791895PackageVersion>
   </PropertyGroup>
@@ -17,6 +18,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test/maestro-test2 dependencies -->
     <Bardf791895Version>$(Bardf791895PackageVersion)</Bardf791895Version>
     <Foodf791895Version>$(Foodf791895PackageVersion)</Foodf791895Version>
+    <!-- maestro-auth-test/maestro-test3 dependencies -->
     <Hamburgerdf791895Version>$(Hamburgerdf791895PackageVersion)</Hamburgerdf791895Version>
     <Pizzadf791895Version>$(Pizzadf791895PackageVersion)</Pizzadf791895Version>
   </PropertyGroup>
