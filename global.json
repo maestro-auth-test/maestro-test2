@@ -7,6 +7,6 @@
   },
   "msbuild-sdks": {
     "arcade.sdk": "1.1.2",
-    "Microsoft.DotNet.Arcade.Sdk": ""
+    "Microsoft.DotNet.Arcade.Sdk": "2.1.0"
   }
 }
