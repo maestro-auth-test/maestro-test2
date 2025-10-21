@@ -8,7 +8,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barade6840cPackageVersion>2.1.0</Barade6840cPackageVersion>
     <Fooade6840cPackageVersion>1.1.0</Fooade6840cPackageVersion>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test3 dependencies -->
     <Hamburgerade6840cPackageVersion>4.1.0</Hamburgerade6840cPackageVersion>
     <Pizzaade6840cPackageVersion>3.1.0</Pizzaade6840cPackageVersion>
   </PropertyGroup>
@@ -17,7 +17,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barade6840cVersion>$(Barade6840cPackageVersion)</Barade6840cVersion>
     <Fooade6840cVersion>$(Fooade6840cPackageVersion)</Fooade6840cVersion>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test3 dependencies -->
     <Hamburgerade6840cVersion>$(Hamburgerade6840cPackageVersion)</Hamburgerade6840cVersion>
     <Pizzaade6840cVersion>$(Pizzaade6840cPackageVersion)</Pizzaade6840cVersion>
   </PropertyGroup>
