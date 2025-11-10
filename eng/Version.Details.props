@@ -8,7 +8,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Bared838cfcPackageVersion>2.1.0</Bared838cfcPackageVersion>
     <Fooed838cfcPackageVersion>1.1.0</Fooed838cfcPackageVersion>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test3 dependencies -->
     <Hamburgered838cfcPackageVersion>4.1.0</Hamburgered838cfcPackageVersion>
     <Pizzaed838cfcPackageVersion>3.1.0</Pizzaed838cfcPackageVersion>
   </PropertyGroup>
@@ -17,7 +17,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Bared838cfcVersion>$(Bared838cfcPackageVersion)</Bared838cfcVersion>
     <Fooed838cfcVersion>$(Fooed838cfcPackageVersion)</Fooed838cfcVersion>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test3 dependencies -->
     <Hamburgered838cfcVersion>$(Hamburgered838cfcPackageVersion)</Hamburgered838cfcVersion>
     <Pizzaed838cfcVersion>$(Pizzaed838cfcPackageVersion)</Pizzaed838cfcVersion>
   </PropertyGroup>
