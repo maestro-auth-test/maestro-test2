@@ -5,7 +5,7 @@ This file should be imported by eng/Versions.props
 -->
 <Project>
   <PropertyGroup>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barc41d2ff3PackageVersion>2.1.0</Barc41d2ff3PackageVersion>
     <Fooc41d2ff3PackageVersion>1.1.0</Fooc41d2ff3PackageVersion>
     <!-- maestro-auth-test/maestro-test3 dependencies -->
@@ -14,7 +14,7 @@ This file should be imported by eng/Versions.props
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
-    <!-- maestro-auth-test/maestro-test2 dependencies -->
+    <!-- maestro-auth-test/maestro-test1 dependencies -->
     <Barc41d2ff3Version>$(Barc41d2ff3PackageVersion)</Barc41d2ff3Version>
     <Fooc41d2ff3Version>$(Fooc41d2ff3PackageVersion)</Fooc41d2ff3Version>
     <!-- maestro-auth-test/maestro-test3 dependencies -->
