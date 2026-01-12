@@ -6,8 +6,8 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-auth-test/maestro-test-vmr dependencies -->
-    <Bar97983e2cPackageVersion>2.1.0</Bar97983e2cPackageVersion>
-    <Foo97983e2cPackageVersion>1.1.0</Foo97983e2cPackageVersion>
+    <Bar97983e2cPackageVersion>2.17.0</Bar97983e2cPackageVersion>
+    <Foo97983e2cPackageVersion>1.17.0</Foo97983e2cPackageVersion>
     <MicrosoftDotNetArcadeSdkPackageVersion>1.1.0</MicrosoftDotNetArcadeSdkPackageVersion>
     <Pinned97983e2cPackageVersion>2.1.0</Pinned97983e2cPackageVersion>
   </PropertyGroup>
