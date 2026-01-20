@@ -6,8 +6,8 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-auth-test/maestro-test1 dependencies -->
-    <Barcad42d57PackageVersion>0.0.1</Barcad42d57PackageVersion>
-    <Foocad42d57PackageVersion>0.0.1</Foocad42d57PackageVersion>
+    <Barcad42d57PackageVersion>2.1.0</Barcad42d57PackageVersion>
+    <Foocad42d57PackageVersion>1.1.0</Foocad42d57PackageVersion>
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
