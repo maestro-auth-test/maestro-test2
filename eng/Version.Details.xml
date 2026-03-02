@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
+  <Source Uri="https://github.com/maestro-auth-test/maestro-test-vmr" Mapping="maestro-test2" Sha="b41f3dbf2e587ac759b1180b8a8fd8c032bcd6f1" BarId="88728" />
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
-    <Dependency Name="Foo.7c830dfc" Version="1.1.0">
+    <Dependency Name="Foo.7c830dfc" Version="1.17.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
-      <Sha />
+      <Sha>b41f3dbf2e587ac759b1180b8a8fd8c032bcd6f1</Sha>
     </Dependency>
-    <Dependency Name="Bar.7c830dfc" Version="2.1.0">
+    <Dependency Name="Bar.7c830dfc" Version="2.17.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
-      <Sha />
+      <Sha>b41f3dbf2e587ac759b1180b8a8fd8c032bcd6f1</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.1.0" Pinned="True">
       <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
