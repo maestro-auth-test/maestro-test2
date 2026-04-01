@@ -6,8 +6,8 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-auth-test-maestro-test1 dependencies -->
-    <Bar946fb27dPackageVersion>0.0.1</Bar946fb27dPackageVersion>
-    <Foo946fb27dPackageVersion>0.0.1</Foo946fb27dPackageVersion>
+    <Bar946fb27dPackageVersion>2.1.0</Bar946fb27dPackageVersion>
+    <Foo946fb27dPackageVersion>1.1.0</Foo946fb27dPackageVersion>
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
