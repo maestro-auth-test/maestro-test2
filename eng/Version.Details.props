@@ -6,10 +6,11 @@ This file should be imported by eng/Versions.props
 <Project>
   <PropertyGroup>
     <!-- maestro-auth-test-maestro-test-vmr dependencies -->
-    <Buildcf0ff590PackageVersion>3.1.0</Buildcf0ff590PackageVersion>
+    <Buildcf0ff590PackageVersion>3.17.0</Buildcf0ff590PackageVersion>
     <MicrosoftDotNetArcadeSdkPackageVersion>1.1.0</MicrosoftDotNetArcadeSdkPackageVersion>
     <Pinnedcf0ff590PackageVersion>2.1.0</Pinnedcf0ff590PackageVersion>
     <RepoSidecf0ff590PackageVersion>1.17.0</RepoSidecf0ff590PackageVersion>
+    <VmrSidecf0ff590PackageVersion>2.17.0</VmrSidecf0ff590PackageVersion>
   </PropertyGroup>
   <!--Property group for alternate package version names-->
   <PropertyGroup>
@@ -18,5 +19,6 @@ This file should be imported by eng/Versions.props
     <MicrosoftDotNetArcadeSdkVersion>$(MicrosoftDotNetArcadeSdkPackageVersion)</MicrosoftDotNetArcadeSdkVersion>
     <Pinnedcf0ff590Version>$(Pinnedcf0ff590PackageVersion)</Pinnedcf0ff590Version>
     <RepoSidecf0ff590Version>$(RepoSidecf0ff590PackageVersion)</RepoSidecf0ff590Version>
+    <VmrSidecf0ff590Version>$(VmrSidecf0ff590PackageVersion)</VmrSidecf0ff590Version>
   </PropertyGroup>
 </Project>
