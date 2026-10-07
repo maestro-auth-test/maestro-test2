@@ -3,6 +3,14 @@
   <Source Uri="https://github.com/maestro-auth-test/maestro-test-vmr" Mapping="maestro-test2" Sha="741be891cf744b5a1dd2058f96580a326c427ec3" BarId="289" />
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
+    <Dependency Name="Foo.a4289396" Version="1.1.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
+      <Sha />
+    </Dependency>
+    <Dependency Name="Bar.a4289396" Version="2.1.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
+      <Sha />
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
   </ToolsetDependencies>
