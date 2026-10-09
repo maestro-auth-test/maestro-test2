@@ -3,6 +3,22 @@
   <Source Uri="https://github.com/maestro-auth-test/maestro-test-vmr" Mapping="maestro-test2" Sha="741be891cf744b5a1dd2058f96580a326c427ec3" BarId="289" />
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
+    <Dependency Name="RepoSide.73e9ad3d" Version="1.17.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
+      <Sha>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Sha>
+    </Dependency>
+    <Dependency Name="Build.73e9ad3d" Version="3.1.0">
+      <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
+      <Sha>cccccccccccccccccccccccccccccccccccccccc</Sha>
+    </Dependency>
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.1.0" Pinned="True">
+      <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
+      <Sha />
+    </Dependency>
+    <Dependency Name="Pinned.73e9ad3d" Version="2.1.0" Pinned="True">
+      <Uri>https://github.com/maestro-auth-test/maestro-test-vmr</Uri>
+      <Sha />
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
   </ToolsetDependencies>
