@@ -3,13 +3,13 @@
   <Source Uri="https://github.com/maestro-auth-test/maestro-test-vmr" Mapping="maestro-test2" Sha="741be891cf744b5a1dd2058f96580a326c427ec3" BarId="289" />
   <!-- Elements contains all product dependencies -->
   <ProductDependencies>
-    <Dependency Name="Foo.21c7cdc6" Version="0.0.1">
+    <Dependency Name="Foo.21c7cdc6" Version="1.1.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>0b36b99e29b1751403e23cfad0a7dff585818051</Sha>
     </Dependency>
-    <Dependency Name="Bar.21c7cdc6" Version="0.0.1">
+    <Dependency Name="Bar.21c7cdc6" Version="2.1.0">
       <Uri>https://github.com/maestro-auth-test/maestro-test1</Uri>
-      <Sha />
+      <Sha>0b36b99e29b1751403e23cfad0a7dff585818051</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
