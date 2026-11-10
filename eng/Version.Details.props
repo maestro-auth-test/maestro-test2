@@ -8,7 +8,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test-maestro-test1 dependencies -->
     <Bara2c15324PackageVersion>2.1.0</Bara2c15324PackageVersion>
     <Fooa2c15324PackageVersion>1.1.0</Fooa2c15324PackageVersion>
-    <!-- maestro-auth-test-maestro-test2 dependencies -->
+    <!-- maestro-auth-test-maestro-test3 dependencies -->
     <Hamburgera2c15324PackageVersion>4.1.0</Hamburgera2c15324PackageVersion>
     <Pizzaa2c15324PackageVersion>3.1.0</Pizzaa2c15324PackageVersion>
   </PropertyGroup>
@@ -17,7 +17,7 @@ This file should be imported by eng/Versions.props
     <!-- maestro-auth-test-maestro-test1 dependencies -->
     <Bara2c15324Version>$(Bara2c15324PackageVersion)</Bara2c15324Version>
     <Fooa2c15324Version>$(Fooa2c15324PackageVersion)</Fooa2c15324Version>
-    <!-- maestro-auth-test-maestro-test2 dependencies -->
+    <!-- maestro-auth-test-maestro-test3 dependencies -->
     <Hamburgera2c15324Version>$(Hamburgera2c15324PackageVersion)</Hamburgera2c15324Version>
     <Pizzaa2c15324Version>$(Pizzaa2c15324PackageVersion)</Pizzaa2c15324Version>
   </PropertyGroup>
